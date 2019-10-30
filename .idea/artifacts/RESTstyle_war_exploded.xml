@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RESTstyle:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RESTstyle_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RESTstyle" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jersey-client" />
+          <element id="library" level="project" name="jakarta.ws.rs-api-2.1.6" />
+          <element id="library" level="project" name="javax.mail" />
+          <element id="library" level="project" name="aopalliance-repackaged-2.6.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="RESTstyle/web/Web" />
+    </root>
+  </artifact>
+</component>
